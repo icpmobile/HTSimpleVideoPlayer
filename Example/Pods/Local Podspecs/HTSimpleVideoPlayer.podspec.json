@@ -1,0 +1,35 @@
+{
+  "name": "HTSimpleVideoPlayer",
+  "version": "0.1.0",
+  "summary": "简单的视频播放器，适用于不支持断点续传的视频播放场景.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JamesLiAndroid/HTSimpleVideoPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JamesLiAndroid": "lisongyang@hoteamsoft.com"
+  },
+  "source": {
+    "git": "https://github.com/JamesLiAndroid/HTSimpleVideoPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HTSimpleVideoPlayer/Classes/**/*",
+  "resource_bundles": {
+    "HTSimpleVideoPlayer": [
+      "HTSimpleVideoPlayer/Assets/*.png"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ]
+  }
+}

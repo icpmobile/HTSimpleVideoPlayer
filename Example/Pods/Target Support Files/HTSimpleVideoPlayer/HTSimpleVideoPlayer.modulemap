@@ -1,0 +1,6 @@
+framework module HTSimpleVideoPlayer {
+  umbrella header "HTSimpleVideoPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

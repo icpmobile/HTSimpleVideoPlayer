@@ -1,0 +1,23 @@
+PODS:
+  - HTSimpleVideoPlayer (0.1.0):
+    - MBProgressHUD
+  - MBProgressHUD (1.1.0)
+
+DEPENDENCIES:
+  - HTSimpleVideoPlayer (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  HTSimpleVideoPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HTSimpleVideoPlayer: 4b3818cd481d05dbca4d015e34e8af45c71e3de9
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+
+PODFILE CHECKSUM: 64033f569a049fa26294aa1d3f9ed103c4eb93cd
+
+COCOAPODS: 1.6.1

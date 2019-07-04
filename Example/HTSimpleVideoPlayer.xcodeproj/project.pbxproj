@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022B8CAA9C2DC2184F31DA64 /* HTSimpleVideoPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HTSimpleVideoPlayer.podspec; path = ../HTSimpleVideoPlayer.podspec; sourceTree = "<group>"; };
-		25E11DDE5E3EB1C2DF199744 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		022B8CAA9C2DC2184F31DA64 /* HTSimpleVideoPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HTSimpleVideoPlayer.podspec; path = ../HTSimpleVideoPlayer.podspec; sourceTree = "<group>"; };
+		25E11DDE5E3EB1C2DF199744 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		34AD41BC23193D0C27AF8EC6 /* Pods-HTSimpleVideoPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTSimpleVideoPlayer_Example.debug.xcconfig"; path = "Target Support Files/Pods-HTSimpleVideoPlayer_Example/Pods-HTSimpleVideoPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		54CD629758B88E0CF18787A2 /* Pods-HTSimpleVideoPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTSimpleVideoPlayer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HTSimpleVideoPlayer_Tests/Pods-HTSimpleVideoPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HTSimpleVideoPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTSimpleVideoPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		903447D6F769297F3892F137 /* Pods-HTSimpleVideoPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTSimpleVideoPlayer_Tests.release.xcconfig"; path = "Target Support Files/Pods-HTSimpleVideoPlayer_Tests/Pods-HTSimpleVideoPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A74AFC8D2C52F5DC7864585F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A74AFC8D2C52F5DC7864585F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FF07866BA56E63FB4AC42925 /* Pods_HTSimpleVideoPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTSimpleVideoPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				54CD629758B88E0CF18787A2 /* Pods-HTSimpleVideoPlayer_Tests.debug.xcconfig */,
 				903447D6F769297F3892F137 /* Pods-HTSimpleVideoPlayer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -327,12 +327,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HTSimpleVideoPlayer_Example/Pods-HTSimpleVideoPlayer_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HTSimpleVideoPlayer/HTSimpleVideoPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTSimpleVideoPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

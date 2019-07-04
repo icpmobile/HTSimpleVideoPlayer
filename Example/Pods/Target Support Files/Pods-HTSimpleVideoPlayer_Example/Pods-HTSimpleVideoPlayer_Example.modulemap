@@ -1,0 +1,6 @@
+framework module Pods_HTSimpleVideoPlayer_Example {
+  umbrella header "Pods-HTSimpleVideoPlayer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
